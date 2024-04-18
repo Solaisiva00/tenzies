@@ -19,7 +19,7 @@ const Card = () => {
          setBestScore(min)
       }
   }else{
-    setBestScore(null)
+    setBestScore(0)
   }
 }, [score]);
   useEffect(()=>{
