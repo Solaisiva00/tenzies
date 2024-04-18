@@ -1,5 +1,11 @@
+import Card from "./component/card";
+
 const App = () => {
-  return ( <h1>template</h1> );
-}
- 
+  return (
+    <>
+      <Card />
+    </>
+  );
+};
+
 export default App;
